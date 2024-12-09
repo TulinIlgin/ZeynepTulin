@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: zone
+  m_Shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALPHABLEND_ON
+  m_InvalidKeywords:
+  - _ANIMATEDECALEMISSIONONOFF_ON
+  - _BLENDMAINNORMAL_ON
+  - _DECALEMISSIONONOFF_ON
+  - _INVERTABASECOLOR_ON
+  - _SNOWNOISEONOFF_ON
+  - _SOURCE_SPECULARALPHA
+  - _WORLDOBJECTGRADIENT_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - GRABPASS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: a195a893970f3ab4990bd06e18a0b308, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutoutMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalsTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 9f82f1324fdbe3e47a287948e6aa94d6, type: 3}
+        m_Scale: {x: 25, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9f82f1324fdbe3e47a287948e6aa94d6, type: 3}
+        m_Scale: {x: 25, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopProjectionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ANIMATEDECALEMISSIONONOFF: 1
+    - _ANIMATEOREEMISSIONONOFF: 0
+    - _AoIntensity: 1
+    - _BlendMainNormal: 1
+    - _BlendOp: 0
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _ContrastDetailMap: 0
+    - _Cull: 0
+    - _Cutoff: 0.5
+    - _DECALEMISSIONONOFF: 1
+    - _DECALSONOFF: 0
+    - _DETAILTEXTUREONOFF: 0
+    - _DecalEmissionIntensity: 4
+    - _DetailBrightness: 1
+    - _DetailNormalMapScale: 1
+    - _DetailSaturation: 0
+    - _DetailTextureTiling: 0.5
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 10
+    - _EmissionEnabled: 0
+    - _EmissionIntensity: 2
+    - _EnableDetailMask: 0
+    - _FlipbookMode: 0
+    - _GRADIENTONOFF: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.942
+    - _GlossyReflections: 1
+    - _Gradient: 1
+    - _GradientPower: 1
+    - _IntensityCutoutMap: 0.5
+    - _IntensityMask: 1
+    - _InvFade: 1
+    - _InvertABaseColor: 1
+    - _InvertCutout: 0
+    - _InvertMask: 0
+    - _LightingEnabled: 0
+    - _Metallic: 0
+    - _Mode: 2
+    - _OREEMISSIONONOFF: 0
+    - _OcclusionStrength: 1
+    - _OreEmissionIntensity: 1
+    - _Parallax: 0.02
+    - _SNOWONOFF: 0
+    - _Saturation: 0
+    - _Smoothness: 0.2
+    - _SmoothnessTextureChannel: 0
+    - _SnowAmount: 1
+    - _SnowCoverage: 0.46
+    - _SnowFade: 0.32
+    - _SnowNoiseContrast: 0.002
+    - _SnowNoiseOnOff: 1
+    - _SnowNoiseScale: 87.23351
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _Source: 0
+    - _SourceMask: 0
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.2
+    - _SpreadDetailMap: 0
+    - _SrcBlend: 5
+    - _TOPPROJECTIONONOFF: 0
+    - _TopProjectionTextureCoverage: 1
+    - _TopProjectionTextureTiling: 0.5
+    - _UVSec: 0
+    - _UseBaseColorAlpha: 0
+    - _VisualizeMask: 0
+    - _WorldObjectGradient: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - __dirty: 1
+    m_Colors:
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 118.035355, g: 0, b: 0, a: 0.019607844}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _DecakEmissionColor: {r: 1, g: 0.9248579, b: 0, a: 0}
+    - _DecalsColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1.4980394, g: 0, b: 0, a: 1}
+    - _GlobalXYTilingXYZWOffsetXY: {r: 1, g: 1, b: 1, a: 1}
+    - _GroundColor: {r: 0.08490568, g: 0.05234205, b: 0.04846032, a: 1}
+    - _OreColor: {r: 1, g: 0.9248579, b: 0, a: 0}
+    - _OreEmissionColor: {r: 1, g: 0.9248579, b: 0, a: 0}
+    - _SnowDirection: {r: 0.1, g: 1, b: 0.1, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TopColor: {r: 0.4811321, g: 0.4036026, b: 0.2382966, a: 1}
+    - _Vector1: {r: 0.1, g: 1, b: 0.1, a: 0}
+  m_BuildTextureStacks: []

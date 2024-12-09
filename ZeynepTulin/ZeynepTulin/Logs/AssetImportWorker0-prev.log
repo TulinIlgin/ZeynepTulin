@@ -1,0 +1,843 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.20f1 (c5d806317f84) revision 12965894'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 8140 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unitys/Project Files/GOKAIFPS/Kaynak Kodları/GOKAIFPS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57177
+Successfully changed project path to: D:/Unitys/Project Files/GOKAIFPS/Kaynak Kodları/GOKAIFPS
+D:/Unitys/Project Files/GOKAIFPS/Kaynak Kodları/GOKAIFPS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9412] Host "[IP] 192.168.1.109 [Port] 0 [Flags] 2 [Guid] 1304263187 [EditorId] 1304263187 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7FAALRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9412] Host "[IP] 192.168.1.109 [Port] 0 [Flags] 2 [Guid] 1304263187 [EditorId] 1304263187 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7FAALRA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 370.74 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.20f1 (c5d806317f84)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unitys/Project Files/GOKAIFPS/Kaynak Kodları/GOKAIFPS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   NVIDIA
+    VRAM:     1976 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.031148 seconds.
+- Loaded All Assemblies, in  0.877 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 328 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (689ms)
+		BeginReloadAssembly (517ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (514ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+				TypeCache.Initialize (174ms)
+					TypeCache.ScanAssembly (172ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (726ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (507ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unitys\Project Files\GOKAIFPS\Kaynak Kodları\GOKAIFPS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unitys\Project Files\GOKAIFPS\Kaynak Kodları\GOKAIFPS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.082 seconds
+Refreshing native plugins compatible for Editor in 6.20 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.172 seconds
+Domain Reload Profiling:
+	ReloadAssembly (508ms)
+		BeginReloadAssembly (327ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (51ms)
+		LoadAllAssembliesAndSetupDomain (2571ms)
+			LoadAssemblies (2192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (518ms)
+				TypeCache.Initialize (482ms)
+					TypeCache.ScanAssembly (473ms)
+				ResolveRequiredComponents (9ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (2917ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (2711ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 6.71 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3545 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (1.5 MB). Loaded Objects now: 4041.
+Memory consumption went from 299.8 MB to 298.2 MB.
+Total: 6.011800 ms (FindLiveObjects: 0.492400 ms CreateObjectMapping: 0.113600 ms MarkObjects: 4.660000 ms  DeleteObjects: 0.744000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 136073.663429 seconds.
+  path: Assets/content_game/prefabs/npc_Skeleton.prefab
+  artifactKey: Guid(bf67735432519b34ab3f1a9525cb165c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/npc_Skeleton.prefab using Guid(bf67735432519b34ab3f1a9525cb165c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f725e44bbb3bee8079956f1c02eea9') in 1.236631 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 296
+========================================================================
+Received Import Request.
+  Time since last request: 0.104279 seconds.
+  path: Assets/content_game/prefabs/npc_Zombie.prefab
+  artifactKey: Guid(8453f4ea4c5fb8d488c367ca4c5396a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/npc_Zombie.prefab using Guid(8453f4ea4c5fb8d488c367ca4c5396a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d9616c794a6f825ca8ebb7c1478ffe') in 0.535873 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 281
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba00e8ab4fc436add5dffb6f53777ab') in 4.614818 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1627
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdb6aab7b132c474df6046ca63f3a83') in 0.480584 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1627
+========================================================================
+Received Import Request.
+  Time since last request: 2.767831 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5895d87db481b25ff3fc356e91618f1a') in 0.472007 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1627
+========================================================================
+Received Import Request.
+  Time since last request: 9.403824 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8367d85fba8003d5c33eb4ae32e1993') in 0.461351 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1518
+========================================================================
+Received Import Request.
+  Time since last request: 2.546438 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92462ab4c2067c3f5f8330779058e29') in 0.480149 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1518
+========================================================================
+Received Import Request.
+  Time since last request: 3.538711 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58710e104093045083b4cabb2782eac9') in 0.482219 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1518
+========================================================================
+Received Import Request.
+  Time since last request: 6.957283 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44609999b34eebd429e8b20f95d7107') in 0.467693 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1518
+========================================================================
+Received Import Request.
+  Time since last request: 2.748876 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd124a59aa2c5a8589ed68eb15cd392d') in 0.450292 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1518
+========================================================================
+Received Import Request.
+  Time since last request: 8.141581 seconds.
+  path: Assets/content_game/models/FPS/ak
+  artifactKey: Guid(a9d4c0c25d4c3a3488fa2a61d68dad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak using Guid(a9d4c0c25d4c3a3488fa2a61d68dad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1439d4d8c310c788b731855407daa5') in 0.000703 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.097821 seconds.
+  path: Assets/content_game/models/FPS/ak/TEXTURA.png
+  artifactKey: Guid(958050d1e7c23004aba2c7d673c5789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/TEXTURA.png using Guid(958050d1e7c23004aba2c7d673c5789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c125648f8bdd3f512ea6b6501dd54') in 0.095531 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.089474 seconds.
+  path: Assets/content_game/models/FPS/ak/AK ANIMACION.fbx
+  artifactKey: Guid(af68b5475af50bf4b9b3806c59bf0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/AK ANIMACION.fbx using Guid(af68b5475af50bf4b9b3806c59bf0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1a932de2bc8d17997f85e544560d3b') in 0.759903 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 194.445962 seconds.
+  path: Assets/content_game/models/FPS/ak/AK ANIMACION.fbx
+  artifactKey: Guid(af68b5475af50bf4b9b3806c59bf0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/AK ANIMACION.fbx using Guid(af68b5475af50bf4b9b3806c59bf0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f828831ed6ce9c92e8850863c52dcd5') in 0.206235 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 5.923917 seconds.
+  path: Assets/content_game/models/FPS/ak/AK ANIMACION.fbx
+  artifactKey: Guid(af68b5475af50bf4b9b3806c59bf0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/AK ANIMACION.fbx using Guid(af68b5475af50bf4b9b3806c59bf0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6a77b29ca4b7af4ee0fe4dab25e018') in 0.161900 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 59.738347 seconds.
+  path: Assets/content_game/models/FPS/ak/textures
+  artifactKey: Guid(58032eb1cb76f45449e9ede88f2d5b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/textures using Guid(58032eb1cb76f45449e9ede88f2d5b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9706326b4a8c105ef39f9829826c8497') in 0.000666 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.498413 seconds.
+  path: Assets/content_game/models/FPS/ak/textures 1
+  artifactKey: Guid(58936cf3632bea543a9795202e7faa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/textures 1 using Guid(58936cf3632bea543a9795202e7faa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136795b9bfb6e6a17adec56decf40887') in 0.000726 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.512232 seconds.
+  path: Assets/content_game/models/FPS/ak/materials
+  artifactKey: Guid(58936cf3632bea543a9795202e7faa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/materials using Guid(58936cf3632bea543a9795202e7faa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4992ffd302e1919b3b84e460fa532678') in 0.000869 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 347.577738 seconds.
+  path: Assets/content_game/animator/BodyUp.mask
+  artifactKey: Guid(9e820d96a72e54f499805f940e887c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/BodyUp.mask using Guid(9e820d96a72e54f499805f940e887c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85747687655c6b692a370144a472dab') in 0.001874 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.597009 seconds.
+  path: Assets/content_game/animator/weapons
+  artifactKey: Guid(953c01846f9e9c4449d1821e0c02aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/weapons using Guid(953c01846f9e9c4449d1821e0c02aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed85553b19ae5bd3cbbdc143674eb7a') in 0.000671 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.259696 seconds.
+  path: Assets/content_game/animator/m4.controller
+  artifactKey: Guid(c9c667147264a1442ba1ce8f38664446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/m4.controller using Guid(c9c667147264a1442ba1ce8f38664446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13a2add82b3e568020c8c850e0c03cc') in 0.089388 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 22.199085 seconds.
+  path: Assets/content_game/animator/npcs
+  artifactKey: Guid(1bbe5378af8f8ac4c9aaef54abc52ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/npcs using Guid(1bbe5378af8f8ac4c9aaef54abc52ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ca6b9c8dbe7da2fb328b469511ee4b') in 0.000743 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.452555 seconds.
+  path: Assets/content_game/animator/Skeleton.controller
+  artifactKey: Guid(b5f3ddf057142c94d9977b8d4fd4bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/Skeleton.controller using Guid(b5f3ddf057142c94d9977b8d4fd4bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fe4d0207fac842d99d8a578693e762') in 0.340917 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 13.775809 seconds.
+  path: Assets/content_game/animator/Humanoid
+  artifactKey: Guid(e81da2ead5722744bb9f388af35d6ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/Humanoid using Guid(e81da2ead5722744bb9f388af35d6ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8b3a8c9b2378b41717d498d70f993b') in 0.000538 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.860458 seconds.
+  path: Assets/content_game/animator/zombieBossAttack.anim
+  artifactKey: Guid(a478a274cea78a141bbc58e8c6868b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/zombieBossAttack.anim using Guid(a478a274cea78a141bbc58e8c6868b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68041359cd836cb7255f0e18fa8eaf27') in 0.173773 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.437937 seconds.
+  path: Assets/content_game/animator/PlayerCanvas.controller
+  artifactKey: Guid(35b1abaac92e1ec44b0f3882e4ef8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/PlayerCanvas.controller using Guid(35b1abaac92e1ec44b0f3882e4ef8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcd0214bf3f5beb079445080257745f') in 0.002488 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 8.189479 seconds.
+  path: Assets/content_game/animator/weapons/m4 1.controller
+  artifactKey: Guid(c6aeea27212b00d449f70956c87a45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/weapons/m4 1.controller using Guid(c6aeea27212b00d449f70956c87a45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43a18740d95ba6ee359e62cdd7cbb66') in 0.090959 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.739034 seconds.
+  path: Assets/content_game/animator/weapons/ak.controller
+  artifactKey: Guid(c6aeea27212b00d449f70956c87a45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/animator/weapons/ak.controller using Guid(c6aeea27212b00d449f70956c87a45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9645c32f4dab5b1ffeaee8f9b449eeeb') in 0.089759 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 11.415731 seconds.
+  path: Assets/content_game/models/FPS/ak/AK ANIMACION.fbx
+  artifactKey: Guid(af68b5475af50bf4b9b3806c59bf0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/AK ANIMACION.fbx using Guid(af68b5475af50bf4b9b3806c59bf0550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd794cde1c5cd685ee4fbd9a95a35fa') in 0.851217 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 5.231103 seconds.
+  path: Assets/content_game/models/FPS/ak/reload.anim
+  artifactKey: Guid(5442547117b7f3c4dbf4ac8dcad6e475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/reload.anim using Guid(5442547117b7f3c4dbf4ac8dcad6e475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9309ecf1eb0efa7990bf603102db37f') in 0.015835 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.624322 seconds.
+  path: Assets/content_game/models/FPS/ak/shoot.anim
+  artifactKey: Guid(d6e5bb13daca5834a9de7be15496edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/shoot.anim using Guid(d6e5bb13daca5834a9de7be15496edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8241b9c27b639d4c04d3556e15509d') in 0.006137 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.740454 seconds.
+  path: Assets/content_game/models/FPS/ak/idle.anim
+  artifactKey: Guid(ec6e8666864018f4498e61afa8658c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/idle.anim using Guid(ec6e8666864018f4498e61afa8658c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75fc149605dc41d134c990d1a71947d') in 0.001391 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.312050 seconds.
+  path: Assets/content_game/models/FPS/ak/empty.anim
+  artifactKey: Guid(3126682a05ee9704a881264ab4a2f7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/models/FPS/ak/empty.anim using Guid(3126682a05ee9704a881264ab4a2f7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92b8a890655183849bd0747646df9c3') in 0.001616 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.533503 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3c696cb6c24924f29b59374b2fdf74') in 4.210242 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1731
+========================================================================
+Received Import Request.
+  Time since last request: 163.516985 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd109f2b90983d257847b9d71b49e2a') in 0.634182 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1731
+========================================================================
+Received Import Request.
+  Time since last request: 118.984853 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dcdc0d4ecf571a6dab241544e89fe6') in 0.798352 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1732
+========================================================================
+Received Import Request.
+  Time since last request: 9.124110 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0163e3520a519f68d4329be6ba4e1e9') in 0.625895 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1732
+========================================================================
+Received Import Request.
+  Time since last request: 3.730740 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f1a4930a76235f0ac6eebc0338b98a') in 0.543988 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1756
+========================================================================
+Received Import Request.
+  Time since last request: 1.143245 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cf87ea1810e2cf868e95ea4c89b97c') in 0.564852 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1756
+========================================================================
+Received Import Request.
+  Time since last request: 0.674121 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4761c4524c6f26fd553e4d53f8c8b95e') in 0.576501 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1756
+========================================================================
+Received Import Request.
+  Time since last request: 75.805626 seconds.
+  path: Assets/content_game/prefabs/PlayerController.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9b57393e1e30b1247a985d336ef715') in 0.586438 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1756
+========================================================================
+Received Import Request.
+  Time since last request: 3.298113 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level1.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level1.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c1e1daa7d8cbde6ac3864d0017b7dd') in 0.541959 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1756
+========================================================================
+Received Import Request.
+  Time since last request: 1.132345 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level1 1.prefab
+  artifactKey: Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level1 1.prefab using Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442a01bc785b7cd4078a793877614255') in 0.647074 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1761
+========================================================================
+Received Import Request.
+  Time since last request: 2.105198 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level2.prefab
+  artifactKey: Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level2.prefab using Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c368ab2188dbd92c404139ac8e6c1cb') in 0.646642 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1761
+========================================================================
+Received Import Request.
+  Time since last request: 77.709231 seconds.
+  path: Assets/content_store/sounds/Weapons of Choice FREE - Komposite Sound/BULLETS/Shell
+  artifactKey: Guid(7b485693ae6edde4ea1a858141f47792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_store/sounds/Weapons of Choice FREE - Komposite Sound/BULLETS/Shell using Guid(7b485693ae6edde4ea1a858141f47792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4399ffbd3d254368cdf375d062a87c5c') in 0.001028 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.674711 seconds.
+  path: Assets/content_store/sounds/Weapons of Choice FREE - Komposite Sound/BULLETS/Ricochets
+  artifactKey: Guid(687560e0d1888e84fa1f915ad9e47814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_store/sounds/Weapons of Choice FREE - Komposite Sound/BULLETS/Ricochets using Guid(687560e0d1888e84fa1f915ad9e47814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8570c1ec291789a400c37f106973e1') in 0.001510 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.745271 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level1.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level1.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1670d40bfdf8177af780f37b96da6fb2') in 0.698467 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1761
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level2.prefab
+  artifactKey: Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level2.prefab using Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b7a5f57f9d7eb2d3557faf91a2c5e4') in 0.670025 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1762
+========================================================================
+Received Import Request.
+  Time since last request: 36.522023 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level2.prefab
+  artifactKey: Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level2.prefab using Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556af36fbb30f8a1ca2837e14bfb3279') in 0.609765 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1762
+========================================================================
+Received Import Request.
+  Time since last request: 0.140967 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level2.prefab
+  artifactKey: Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level2.prefab using Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c556c948fe552a19adc7119b1787022b') in 1.027261 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1762
+========================================================================
+Received Import Request.
+  Time since last request: 26.638148 seconds.
+  path: Assets/content_store/templates/MilkShake/Demo/Presets/Explosion.asset
+  artifactKey: Guid(d7a93a3c6c2182b4ab29c6ca2f5c77d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_store/templates/MilkShake/Demo/Presets/Explosion.asset using Guid(d7a93a3c6c2182b4ab29c6ca2f5c77d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7015dcb97358eb9e49cd84cc67227262') in 0.064461 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.933891 seconds.
+  path: Assets/content_store/templates/MilkShake/Demo/Presets/Shoot 1.asset
+  artifactKey: Guid(979bdd87810d3f3418478de4b69b024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_store/templates/MilkShake/Demo/Presets/Shoot 1.asset using Guid(979bdd87810d3f3418478de4b69b024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229354da0e1b95662927cedeef951e14') in 0.001274 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.914949 seconds.
+  path: Assets/content_store/templates/MilkShake/Demo/Presets/Shoot_AK.asset
+  artifactKey: Guid(979bdd87810d3f3418478de4b69b024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_store/templates/MilkShake/Demo/Presets/Shoot_AK.asset using Guid(979bdd87810d3f3418478de4b69b024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae89e6b5f004abb8340e383ae263fa9d') in 0.001724 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 157.938500 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level1.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level1.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1862bdeea203b7eb12a286a0a40db78') in 0.619602 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1761
+========================================================================
+Received Import Request.
+  Time since last request: 0.417415 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level1.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level1.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faec5dae9528dc6722fd06e5e2207369') in 0.684469 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1761
+========================================================================
+Received Import Request.
+  Time since last request: 13.888502 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level2.prefab
+  artifactKey: Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level2.prefab using Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba05953240dde3362a29d2e355da037c') in 0.663441 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1763
+========================================================================
+Received Import Request.
+  Time since last request: 17.728819 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level2.prefab
+  artifactKey: Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level2.prefab using Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d00b8415417ee9c328bebe99881f2a') in 0.635112 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1763
+========================================================================
+Received Import Request.
+  Time since last request: 0.166351 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level2.prefab
+  artifactKey: Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level2.prefab using Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0257084f0fd4bb4a160afc3eca19a250') in 0.655864 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1763
+========================================================================
+Received Import Request.
+  Time since last request: 69.258498 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level1.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level1.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc97057f1279b48ba128d0588f6b6a0e') in 0.642794 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1761
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level2.prefab
+  artifactKey: Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level2.prefab using Guid(733cda2288994a344a5e482e809d77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef982f5de6b58d9f78d479c27ffdeac') in 0.626797 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1763
+========================================================================
+Received Import Request.
+  Time since last request: 184.292725 seconds.
+  path: Assets/content_game/scripts/Manager/EditorUtilities.cs
+  artifactKey: Guid(6c519cf3433359e4a9df8d7863c019d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/scripts/Manager/EditorUtilities.cs using Guid(6c519cf3433359e4a9df8d7863c019d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3fa9b7b0e4f03a62a6b85772d5ca59') in 0.000848 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.454341 seconds.
+  path: Assets/content_game/scenes/Level_1.unity
+  artifactKey: Guid(985a207bce65afb4cb6b82668b48cfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/scenes/Level_1.unity using Guid(985a207bce65afb4cb6b82668b48cfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fda5e19c889e63011dfcade4581478') in 0.000598 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.580471 seconds.
+  path: Assets/content_game/prefabs/PlayerController_level1.prefab
+  artifactKey: Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/content_game/prefabs/PlayerController_level1.prefab using Guid(07d28499211db02439764d97c25e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f5f54ac3a4ec0c48d7cf566ea557f3') in 0.640539 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1761
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (1.2 MB). Loaded Objects now: 4092.
+Memory consumption went from 231.9 MB to 230.6 MB.
+Total: 55.776500 ms (FindLiveObjects: 0.520300 ms CreateObjectMapping: 0.106800 ms MarkObjects: 54.641300 ms  DeleteObjects: 0.506500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
